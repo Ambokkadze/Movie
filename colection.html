@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoCinema</title>
+    <!--! --- CUSTOM CSS LINK -->
+     <link rel="stylesheet" href="./css/main.css">
+     <link rel="stylesheet" href="./css/media_query.css">
+     <link rel="shortcut icon" href="./images/logo-no-background.png" type="image/x-icon">
+
+     <!--! --- GOOGLE FONT LINK-->
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+
+
+
+    <!--! MAIN CONTAINER -->
+    <div class="container">
+
+        <!--! HEADER SECTION -->
+
+        <header class="">
+            <div class="navbar">
+                <!--!  MENU BUTTON FOR SMALL SCREEN -->
+
+                <button class="navbar-menu-btn">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="three"></span>
+                </button>
+
+                <a href="#" class="navbar-brand">
+                    <h3><span class="logo">Geo</span>Cinema</h3>
+                </a>
+
+                <!--! NAVBAR NAVIGATION -->
+                <nav class="">
+                    <ul class="navbar-nav">
+                        <li> <a href="#" class="navbar-link">მთავარი</a> </li>
+                        <li> <a href="#category" class="navbar-link">კატეგორია</a> </li>
+                        <li> <a href="colection.html" class="navbar-link ">კოლექცია</a> </li>
+                    </ul>
+                </nav>
+
+                <!--! SEARCH AND SIGN-IN -->
+
+                <div class="navbar-actions">
+
+                    <form action="#" class="navbar-form ">
+                        <input type="text" name="search" placeholder="აბა, რას ვეძებთ?" class="navbar-form-search">
+
+                        <button class="navbar-form-btn">
+                            <ion-icon name="search-outline"></ion-icon>
+                        </button>
+
+                        <button class="navbar-form-close">
+                            <ion-icon name="close-circle-outline"></ion-icon>
+                        </button>
+                    </form>
+
+
+                    <!--! SEARCH BUTTON FOR SMALL SCREEN -->
+
+                    <button class="navbar-search-btn">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </button>
+
+                    <a href="/signin.html" class="navbar-signin">
+                        <span>შესვლა</span>
+                        <ion-icon name="log-in-outline"></ion-icon>
+                    </a>
+
+                    <!-- <div class="profile" onclick="menuToggle()">
+                        <a href="#"><img src="./images/profile.jpg" alt=""></a>
+                        <div class="option">
+                            <a href="#">nickname</a>
+                            <a href="#">AdminPanel</a>
+                            <a href="#">გასვლა</a>
+                        </div>
+                    </div> -->
+
+
+
+                </div>
+            </div>
+        </header>
+
+<section class="movies">
+        <h2 class="colection">სანახავია</h2>
+
+        <div class="movies-grid">
+                    
+            <div class="movie-card">
+
+                <div class="card-head">
+
+                        <img class="card-img" src="./images/movies/red-notice.jpg" alt="">  
+
+                        <div class="card-overlay">
+                        
+                            <div class="bookmark">
+                                <ion-icon name="bookmark-outline"></ion-icon>
+                                <!-- <ion-icon name="checkmark-outline" style="color: yellow;"></ion-icon> -->
+                            </div>
+
+                            <div class="rating">
+                                <ion-icon name="star-outline"></ion-icon>
+                                <span>6.4</span>
+                            </div>
+
+                            <a href="watch.html">
+                                <div class="play">
+                                    <ion-icon name="play-circle-outline"></ion-icon>
+                                </div>
+                            </a>
+                        
+                        </div>
+                    
+                </div>
+                
+                <div class="card-body">
+                    <a href="watch.html">
+                        <h3 class="card-title">Red Notice</h3>
+                    </a>
+
+                    <div class="card-info">
+                        <span class="genre">Action/Comedy</span>
+                        <span class="year">2021</span>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+            
+            
+        </div>
+</section>
+        </div>
+
+            
+
+
+<!--! --- CUSTOM JS LINK -->
+
+ <script src="js/index.js"></script>
+ <script src="js/profile.js"></script>
+
+ <!--! -- ionicon link -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GeoCinema</title>
+        <!--! --- CUSTOM CSS LINK -->
+         <link rel="stylesheet" href="./css/adminpanel.css">
+         <link rel="stylesheet" href="./css/media_query.css">
+         <link rel="shortcut icon" href="./images/logo-no-background.png" type="image/x-icon">
+         
+         <!--! --- GOOGLE FONT LINK-->
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+<body>
+      
+
+
+
+
+
+        <!--! ADMINPANEL SIDEBAR  -->
+
+        <div class="sidebar">
+            <div class="sidebar-brand">
+                <h2> AdminPanel</h2>
+            </div>
+
+            <div class="sidebar-menu">
+                <ul>
+                    <li>
+                        <a href="" class="active"><ion-icon name="stats-chart-sharp"></ion-icon>
+                            <span>სტატისტიკა</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="videocam-sharp"></ion-icon>
+                            <span>ფილმების დამატება</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="film-sharp"></ion-icon>
+                            <span>ფილმების მართვა</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="receipt-sharp"></ion-icon>
+                            <span>ბანერის დამატება</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="trash-sharp"></ion-icon>
+                            <span>ბანერის მართვა</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="person-add-sharp"></ion-icon>
+                            <span>მომხმარებლის დამატება</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="people-sharp"></ion-icon>
+                            <span>მომხმარებლის მართვა</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="duplicate-sharp"></ion-icon>
+                            <span>კატეგორიის დამატება</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="close-circle-sharp"></ion-icon>
+                            <span>კატეგორიის მართვა</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""><ion-icon name="person-sharp"></ion-icon>
+                            <span>პროფილი</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <header>
+                <h2>
+                    <label for="">
+                        <ion-icon name="menu-sharp"></ion-icon>
+                    </label>
+                    სტატისტიკა
+                </h2>
+
+                <div class="user-wrapper">
+                    <img src="./images/profile.jpg" width="40px" height="40px">
+                    <div>
+                        <h4>Amboka</h4>
+                        <small>Admin</small>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+
+                <div class="cards">
+
+                    <div class="card-single">
+                        <div>
+                            <h1>54</h1>
+                            <span>სტუმარი</span>
+                        </div>
+                        <div>
+                            <ion-icon name="walk-sharp"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="card-single">
+                        <div>
+                            <h1>54</h1>
+                            <span>მომხმარებელი</span>
+                        </div>
+                        <div>
+                            <ion-icon name="person-circle-sharp"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="card-single">
+                        <div>
+                            <h1>2</h1>
+                            <span>ადმინები</span>
+                        </div>
+                        <div>
+                            <ion-icon name="skull-sharp"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="card-single">
+                        <div>
+                            <h1>54</h1>
+                            <span>ფილმების სტატისტიკა</span>
+                        </div>
+                        <div>
+                            <ion-icon name="stats-chart-sharp"></ion-icon>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="recent-grid">
+                    <div class="projects">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>ადმინები</h3>
+                            </div>
+                            <div class="card-body">
+                                <table width="100%">
+                                    <thead>
+                                        <tr class="titles">
+                                            <td>სახელი გვარი</td>
+                                            <td>ელ-ფოსტა</td>
+                                            <td>წოდება</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>დავით ამბოკაძე</td>
+                                            <td>ambokadzedato0@gmail.com</td>
+                                            <td>მთავარი ადმინი <ion-icon name="ellipse-sharp" style="color: red;"></ion-icon></td>
+                                        </tr>
+                                        <tr>
+                                            <td>ნიკა კანდელაკი</td>
+                                            <td>kandelakinika0@gmail.com</td>
+                                            <td>მთავარი ადმინი <ion-icon name="ellipse-sharp" style="color: red;"></ion-icon></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="customers">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>ახალი დარეგისტრირებული</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="customer">
+                                    <div>
+                                        <div>
+                                            <h4><ion-icon name="ellipse-sharp" style="color: rgb(0, 255, 0);"></ion-icon>საბა ქსოვრელი</h4>
+                                        </div>
+                                        <div>
+                                            <h4><ion-icon name="ellipse-sharp" style="color: rgb(0, 255, 0);"></ion-icon>მარიამ ბერიკაშვილი</h4>
+                                        </div>
+                                        <div>
+                                            <h4><ion-icon name="ellipse-sharp" style="color: rgb(0, 255, 0);"></ion-icon>ლევანი სადუნიშვილი</h4>
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    
+
+        
+ <!--! -- ionicon link -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+</html>
